@@ -1,0 +1,37 @@
+form {
+    background-color: rgb(143, 137, 137);
+    box-shadow: 3px 3px;
+    border-radius: 4px;
+    height: 10vw;
+    width: 30%;
+    display: inline-block;
+    margin-top: 10vw;
+}
+
+input {
+    margin: 10px;
+    width: 175px;
+    border-radius: 0.4vw;
+}
+
+input[type="submit"] {
+    width: 100px;
+    margin-top: 2.5vw;
+}
+
+input[type="submit"]:hover {
+    cursor:pointer;
+}
+
+.header {
+    margin-top: 1vw;
+    font-size: 48px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+.error_prompt {
+    background-color: red;
+    color: white;
+}
